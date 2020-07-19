@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.Create"
+    android:background="#EFEBEB">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="379dp"
+        android:layout_height="247dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="-44dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="528dp"
+        app:srcCompat="@drawable/design2" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="206dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="تسجيل مستخدم "
+        android:textAlignment="viewEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="435dp"
+        app:srcCompat="@drawable/signlogo" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="    البريد الإلكتروني"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#000000"
+        android:textAlignment="viewEnd" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="466dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="    تاكيد الرقم السري :  "
+        android:inputType="textPassword"
+        android:shadowColor="#000000"
+        android:textAlignment="viewEnd" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pass2"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-122dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="       الرقم السري :"
+        android:inputType="textPassword"
+        android:shadowColor="#000000"
+        android:textAlignment="viewEnd" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="227dp"
+        android:background="@drawable/custom_button2"
+        android:text="تسجيل"
+        android:textColor="@color/QRCodeWhiteColor"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="536dp"
+        android:layout_marginEnd="66dp"
+        android:text="أوافق على شروط الإستخدام" />
+
+
+</RelativeLayout>

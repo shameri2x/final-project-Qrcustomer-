@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info"
+    android:background="#EFEBEB">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="446dp"
+        android:layout_height="314dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="-44dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="461dp"
+        app:srcCompat="@drawable/design2" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="تاكيد البيانات"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="  الاسم كامل"
+        android:inputType="text"
+        android:shadowColor="#000000"
+        android:textAlignment="viewEnd" />
+
+    <EditText
+        android:id="@+id/civil"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="    رقم المدني  "
+        android:inputType="number"
+        android:shadowColor="#000000"
+        android:textAlignment="viewEnd" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/civil"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-133dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/custom_input"
+        android:hint="       قم الهاتف :"
+        android:inputType="number"
+        android:shadowColor="#000000"
+        android:textAlignment="viewEnd" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="245dp"
+        android:background="@drawable/custom_button2"
+        android:text="تاكيد"
+        android:textColor="@color/QRCodeWhiteColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="37dp"
+        android:textSize="18sp"
+        android:text="يرجى العلم بأن بياناتك الخاصة محفوظة ولا
+يتم نشرها." />
+
+
+</RelativeLayout>

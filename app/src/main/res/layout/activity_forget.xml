@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.Forget"
+    android:background="#EFEBEB">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="446dp"
+        android:layout_height="314dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="-44dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="461dp"
+        app:srcCompat="@drawable/design2" />
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="28dp"
+        android:text="نسيت كلمة السر ؟"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/custom_input"
+        android:hint=" البريد الالكتروني  "
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="156dp"
+        android:background="@drawable/custom_button2"
+        android:text="التالي"
+        android:textSize="24sp"
+        android:textColor="@color/QRCodeWhiteColor" />
+
+
+</RelativeLayout>

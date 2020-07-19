@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".empolyee.Data"
+    android:background="#EFEBEB">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="446dp"
+        android:layout_height="314dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="-49dp"
+        android:layout_marginEnd="-98dp"
+        android:layout_marginBottom="466dp"
+        app:srcCompat="@drawable/design2" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22817E7E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/custom_input"
+        android:text="TextView"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="-18dp"
+        android:layout_marginEnd="-13dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="بيانات العميل"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/custom_input"
+        android:text="TextView"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="129dp"
+        android:background="@drawable/custom_input"
+        android:text="TextView"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/custom_input"
+        android:text="TextView"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="131dp"
+        android:background="@drawable/custom_input"
+        android:text="TextView"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="578dp"
+        android:layout_marginEnd="135dp"
+        android:background="@drawable/custom_button2"
+        android:text="تم"
+        android:textColor="@color/QRCodeWhiteColor"
+        android:textSize="24sp" />
+
+</RelativeLayout>

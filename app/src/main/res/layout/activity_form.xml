@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBEB"
+    tools:context=".customer.Form">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="470dp"
+        android:layout_height="253dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="-44dp"
+        android:layout_marginEnd="-104dp"
+        android:layout_marginBottom="522dp"
+        app:srcCompat="@drawable/design2" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:background="#22817E7E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="الحجز"
+        android:textColor="#F3F1F1"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="275dp"
+        android:layout_height="212dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="166dp" />
+
+    <Button
+        android:id="@+id/qr"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="439dp"
+        android:background="@drawable/custom_button2"
+        android:shadowColor="#FFFFFF"
+        android:text="الحجز"
+        android:textColor="#F3F0FA"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

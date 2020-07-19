@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalPoint"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="392dp"
+        app:srcCompat="@drawable/loading" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="476dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="لا تنسى اختيار الاجراء التالي"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="شكرا لك ... "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_button2"
+        android:shadowColor="#FFFFFF"
+        android:text="تسجيل خروج"
+        android:textColor="#F3F0FA"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="575dp"
+        android:layout_marginEnd="218dp"
+        android:background="@drawable/custom_button"
+        android:text="الصفحة الرئبسية"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

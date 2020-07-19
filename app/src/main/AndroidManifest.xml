@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qrcustomer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Info"></activity>
+        <activity android:name=".SignReg" />
+        <activity android:name=".empolyee.eSupport" />
+        <activity android:name=".empolyee.Eprofile" />
+        <activity android:name=".customer.Create" />
+        <activity android:name=".customer.Cprofile" />
+        <activity android:name=".FinalPoint" />
+        <activity android:name=".empolyee.Empolyee" />
+        <activity android:name=".customer.Forget" />
+        <activity android:name=".customer.Support" />
+        <activity android:name=".customer.Ask" />
+        <activity android:name=".customer.Terms" />
+        <activity android:name=".customer.Sign" />
+        <activity android:name=".empolyee.Data" />
+        <activity android:name=".customer.Form" />
+        <activity android:name=".customer.Store" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

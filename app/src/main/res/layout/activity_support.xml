@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.Support"
+    android:background="#EFEBEB">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="372dp"
+        android:layout_height="245dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="-46dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="532dp"
+        app:srcCompat="@drawable/design2" />
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="-19dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="التواصل"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22817E7E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/toolbar2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="269dp"
+        android:text=" تواصل معنا عبر الايميل :"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="283dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="29dp"
+        android:text=" تواصل معنا عبر الهاتف :"
+        android:textColor="@color/QRCodeBlackColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="238dp"
+        android:autoLink="email"
+        android:clickable="true"
+        android:text="ahmad.52003@gmail.com"
+        android:textColor="@color/primary_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="183dp"
+        android:autoLink="phone"
+        android:focusable="true"
+        android:text="+965-12345678"
+        android:textAlignment="center"
+        android:textColor="#8F8F8F"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

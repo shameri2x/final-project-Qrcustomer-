@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.Ask"
+    android:background="#EFEBEB">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="316dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="-98dp"
+        android:layout_marginEnd="-62dp"
+        android:layout_marginBottom="513dp"
+        app:srcCompat="@drawable/design2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="171dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="458dp"
+        app:srcCompat="@drawable/ask" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22817E7E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <EditText
+        android:id="@+id/mailID"
+        android:layout_width="283dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="70dp"
+        android:background="@drawable/custom_input"
+        android:hint="البريد الاكتروني"
+        android:textAlignment="center"
+        android:textColorHint="#AAAAAA"
+        android:layout_centerHorizontal="true"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/messageID"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/custom_input"
+        android:hint="العنوان"
+        android:textAlignment="center"
+        android:textColorHint="#AAAAAA"
+        android:textSize="27dp" />
+
+    <EditText
+        android:id="@+id/subjectID"
+        android:layout_width="300dp"
+        android:layout_height="97dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/custom_input"
+        android:hint="الرسالة"
+        android:paddingLeft="20dp"
+        android:textAlignment="textEnd"
+        android:textColorHint="#AAAAAA"
+        android:textSize="27dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="-18dp"
+        android:layout_marginEnd="-13dp"
+        android:fontFamily="@font/jf_flat"
+        android:text="الدعم الفني "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subjectID"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="293dp"
+        android:clickable="true"
+        android:src="@drawable/send"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
